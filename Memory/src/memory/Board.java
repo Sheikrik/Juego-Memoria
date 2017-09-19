@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package memory;
 
 /**
@@ -10,5 +5,21 @@ package memory;
  * @author Mauricio
  */
 public class Board {
+    private int sizes;
+
+    public Board(int sizes) {
+        this.sizes = sizes;
+    }
     
+    public Card generateCard(int value){
+        Card a = null;
+        
+        return a;
+    }
+    
+    public Card[][] generateBoard(int sizes){
+        Card a[][] = null;
+        
+        return a;
+    }
 }

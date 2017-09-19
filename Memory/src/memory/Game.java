@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package memory;
 
 /**
@@ -10,5 +5,17 @@ package memory;
  * @author Mauricio
  */
 public class Game {
+    private Player player;
+    private Board board;
+
+    public Game(Player player, Board board) {
+        this.player = player;
+        this.board = board;
+    }
     
+    public boolean compareCard(Card cardOne,Card cardTwo){
+        boolean a = true;
+        
+        return a;
+    }
 }
